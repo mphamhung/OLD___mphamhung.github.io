@@ -9,7 +9,7 @@ body {
 
 :root {
 	
-	--main-bg-color: #004666 ;
+	--main-bg-color: #005666 ;
 	--sdry-bg-color: white;	
 	--tery-bg-color:white;
 	--text-color: #FFCC00 ;
@@ -177,11 +177,11 @@ header.masthead {
     display: block;
     margin: 0 auto 20px; }
   header.masthead .intro-text .name {
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Times New Roman', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
     display: block;
-    text-transform: uppercase; }
+    text-transform: none; }
   header.masthead .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300; }
