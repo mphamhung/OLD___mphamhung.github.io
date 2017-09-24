@@ -9,7 +9,7 @@ body {
 
 :root {
 	
-	--main-bg-color: #003366 ;
+	--main-bg-color: #834C24 ;
 	--sdry-bg-color: white;	
 	--tery-bg-color:white;
 	--text-color: #FFCC00 ;
@@ -370,8 +370,8 @@ footer {
 .btn-primary {
   font-weight: 700;
   color: white;
-  border-color: var(--sdry-bg-color) ;
-  background-color: var(--sdry-bg-color) ; }
+  border-color: var(--text-color) ;
+  background-color: var(--accent-color) ; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
     border-color: black;
