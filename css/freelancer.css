@@ -10,8 +10,10 @@ body {
 :root {
 	
 	--main-bg-color: #003366 ;
-	--sdry-bg-color: #003366;	
+	--sdry-bg-color: white;	
+	--tery-bg-color:white;
 	--text-color: #FFCC00 ;
+	--accent-color:black;
 	
 }
 p {
@@ -58,10 +60,10 @@ hr.star-primary:after {
   content: '\f005'; }
 
 hr.star-light {
-  border-color: white; }
+  border-color: var(--accent-color); }
 
 hr.star-light:after {
-  color: white;
+  color:  var(--accent-color);
   background-color: var(--main-bg-color)   ; }
 
 hr.star-primary {
@@ -69,7 +71,7 @@ hr.star-primary {
 
 hr.star-primary:after {
   color: var(--sdry-bg-color) ;
-  background-color: white; }
+  background-color:  var(--accent-color); }
 
 .img-centered {
   margin: 0 auto; }
@@ -81,7 +83,7 @@ section {
     margin: 0; }
 
 section.success {
-  color: white;
+  color:  var(--tery-bg-color);
   background: var(--main-bg-color)   ; }
 
 @media (max-width: 767px) {
@@ -112,7 +114,7 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: var(--sdry-bg-color) ; }
+  background: black ; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -346,12 +348,12 @@ footer {
     margin-bottom: 30px; }
   footer .footer-above {
     padding-top: 50px;
-    background-color: var(--sdry-bg-color) ; }
+    background-color: var(--main-bg-color) ; }
   footer .footer-col {
     margin-bottom: 50px; }
   footer .footer-below {
     padding: 25px 0;
-    background-color: var(--sdry-bg-color) ; }
+    background-color: var(--main-bg-color) ; }
 
 .btn-outline {
   font-size: 20px;
