@@ -449,7 +449,8 @@ footer {
   font-weight: 700;
   color: white;
   border-color: var(--main-bg-color)   ;
-  background-color: var(--main-bg-color)   ; }
+
+	background-color: var(--main-bg-color)   ; }
   .btn-success.focus, .btn-success:focus {
     color: white;
     border-color: #0a4b3e;
