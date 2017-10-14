@@ -1,0 +1,527 @@
+/*!
+ * Start Bootstrap - Freelancer v4.0.0-beta (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+
+body
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif
+  overflow-x: hidden
+
+$main-bg-color: #123456
+$sdry-bg-color: white
+$tery-bg-color: white
+$text-color: #FFCC00
+$accent-color: black
+
+p
+  font-size: 20px
+  &.small
+    font-size: 16px
+
+a
+  color: $main-bg-color
+  outline: none
+  &.active, &:active, &:focus, &:hover
+    color: $main-bg-color
+    outline: none
+
+h1, h2, h3, h4, h5, h6
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif
+  font-weight: 700
+  text-transform: uppercase
+
+hr
+  &.hlineAbout
+    overflow: visible
+    /* For IE
+    height: 30px
+    width: 50%
+    border-style: solid
+    border-color: var(--tery-color)
+    border-width: 2px 0 0 0
+    border-radius: 5px
+  &.hlineHeader
+    overflow: visible
+    /* For IE
+    width: 50%
+    height: 30px
+    border-style: solid
+    border-color: $text-color
+    border-width: 2px 0 0 0
+    border-radius: 7px
+  &.hlineHeader2
+    /* Not really supposed to work, but does
+    overflow: visible
+    width: 100%
+    height: 30px
+    margin-top: 300px
+    border-style: solid
+    border-color: $text-color
+    border-width: 0 0 2x 0
+    border-radius: 7px
+  &.hlineWhiteBg
+    overflow: visible
+    /* For IE
+    width: 50%
+    height: 30px
+    border-style: solid
+    border-color: $main-bg-color
+    border-width: 2px 0 0 0
+    border-radius: 5px
+  &.star-light, &.star-primary
+    max-width: 250px
+    margin: 25px auto 30px
+    padding: 0
+    text-align: center
+    border: none
+    border-top: solid 5px
+  &.star-light:after, &.star-primary:after
+    font-family: FontAwesome
+    font-size: 2em
+    position: relative
+    top: -.8em
+    display: inline-block
+    padding: 0 0.25em
+    content: '\f005'
+  &.star-light
+    border-color: $accent-color
+    &:after
+      color: $accent-color
+      background-color: $main-bg-color
+  &.star-primary
+    border-color: $sdry-bg-color
+    &:after
+      color: $sdry-bg-color
+      background-color: $accent-color
+
+.img-centered
+  margin: 0 auto
+
+section
+  padding: 100px 0
+  h2
+    font-size: 3em
+    margin: 0
+  &.success
+    color: $tery-bg-color
+    background: $main-bg-color
+
+@media (max-width: 767px)
+  section
+    padding: 75px 0
+    &.first
+      padding-top: 75px
+
+.scroll-top
+  position: fixed
+  z-index: 1049
+  right: 2%
+  bottom: 2%
+  width: 50px
+  height: 50px
+  .btn
+    font-size: 16px
+    line-height: 28px
+    width: 50px
+    height: 50px
+    text-align: center
+    border-radius: 100%
+    &:focus
+      outline: none
+
+#mainNav
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif
+  font-weight: 700
+  text-transform: uppercase
+  border: none
+  background: black
+  a:focus
+    outline: none
+  .navbar-brand
+    font-size: 1.1rem
+    color: $text-color
+    &.active, &:active, &:focus, &:hover
+      color: $text-color
+  .navbar-nav
+    letter-spacing: 1px
+    li.nav-item a.nav-link
+      color: $text-color
+      &:hover
+        color: $main-bg-color
+        outline: none
+      &:active, &:focus
+        color: $text-color
+  .navbar-toggler
+    font-size: 14px
+    padding: 11px
+    text-transform: uppercase
+    color: $text-color
+    border-color: $text-color
+    &:focus, &:hover
+      color: $text-color
+      border-color: $main-bg-color
+      background-color: $main-bg-color
+
+@media (min-width: 992px)
+  #mainNav
+    padding-top: 25px
+    padding-bottom: 25px
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s
+    transition: padding-top 0.3s, padding-bottom 0.3s
+    .navbar-brand
+      font-size: 2em
+      -webkit-transition: all 0.3s
+      -moz-transition: all 0.3s
+      transition: all 0.3s
+    .navbar-nav > li.nav-item > a.nav-link.active
+      color: $text-color
+      border-radius: 3px
+      background: $main-bg-color
+      &:active, &:focus, &:hover
+        color: $text-color
+        background: $main-bg-color
+    &.navbar-shrink
+      padding-top: 10px
+      padding-bottom: 10px
+      .navbar-brand
+        font-size: 1.5em
+
+header.masthead
+  padding-top: 100px
+  padding-bottom: 50px
+  text-align: center
+  color: $text-color
+  background: $main-bg-color
+  img
+    display: block
+    margin: 0 auto 20px
+  .intro-text
+    .name
+      font-family: 'Times New Roman', 'Helvetica Neue', Helvetica, Arial, sans-serif
+      font-size: 2em
+      font-weight: 700
+      display: block
+      text-transform: none
+    .skills
+      font-size: 1.25em
+      font-weight: 300
+
+@media (min-width: 768px)
+  header.masthead
+    padding-top: 200px
+    padding-bottom: 100px
+    .intro-text
+      .name
+        font-size: 4.75em
+      .skills
+        font-size: 1.75em
+
+#portfolio
+  .portfolio-item
+    right: 0
+    margin: 0 0 15px
+    .portfolio-link
+      position: relative
+      display: block
+      max-width: 400px
+      margin: 0 auto
+      cursor: pointer
+      .caption
+        position: absolute
+        width: 100%
+        height: 100%
+        -webkit-transition: all ease 0.5s
+        -moz-transition: all ease 0.5s
+        transition: all ease 0.5s
+        opacity: 0
+        background: $accent-color
+        &:hover
+          opacity: 1
+        .caption-content
+          font-size: 20px
+          position: absolute
+          top: 26%
+          width: 100%
+          height: 20px
+          margin-top: -12px
+          text-align: center
+          color: $text-color
+          i
+            margin-top: 0px
+          h3, h4
+            margin: 0
+  *
+    z-index: 2
+
+@media (min-width: 767px)
+  #portfolio .portfolio-item
+    margin: 0 0 30px
+
+.portfolio-modal
+  .modal-dialog
+    max-width: 100%
+    min-height: 100%
+    margin: 0
+    padding: 0
+    text-align: left
+    border: none
+    border-radius: 0
+    background-clip: border-box
+    -webkit-box-shadow: none
+    box-shadow: none
+    .modal-content
+      padding: 100px 0
+      border: 0
+      border-radius: 0
+      h2
+        font-size: 3em
+        margin: 0
+      img
+        margin-bottom: 30px
+      .item-details
+        margin: 30px 0
+  .close-modal
+    position: absolute
+    top: 25px
+    right: 25px
+    width: 75px
+    height: 75px
+    cursor: pointer
+    background-color: transparent
+    &:hover
+      opacity: 0.3
+    .lr
+      /* Safari and Chrome
+      z-index: 1051
+      width: 1px
+      height: 75px
+      margin-left: 35px
+      /* IE 9
+      -webkit-transform: rotate(45deg)
+      -ms-transform: rotate(45deg)
+      transform: rotate(45deg)
+      background-color: $main-bg-color
+      .rl
+        /* Safari and Chrome
+        z-index: 1052
+        width: 1px
+        height: 75px
+        /* IE 9
+        -webkit-transform: rotate(90deg)
+        -ms-transform: rotate(90deg)
+        transform: rotate(90deg)
+        background-color: $main-bg-color
+  .modal-backdrop
+    display: none
+    opacity: 0
+
+.floating-label-form-group
+  position: relative
+  margin-bottom: 0
+  padding-bottom: 0.5em
+  border-bottom: 1px solid #eeeeee
+  input, textarea
+    font-size: 1.5em
+    position: relative
+    z-index: 1
+    padding-right: 0
+    padding-left: 0
+    resize: none
+    border: none
+    border-radius: 0
+    background: none
+    box-shadow: none !important
+  label
+    font-size: 0.85em
+    line-height: 1.764705882em
+    position: relative
+    z-index: 0
+    top: 2em
+    display: block
+    margin: 0
+    -webkit-transition: top 0.3s ease, opacity 0.3s ease
+    -moz-transition: top 0.3s ease, opacity 0.3s ease
+    -ms-transition: top 0.3s ease, opacity 0.3s ease
+    transition: top 0.3s ease, opacity 0.3s ease
+    vertical-align: middle
+    vertical-align: baseline
+    opacity: 0
+  &:not(:first-child)
+    padding-left: 14px
+    border-left: 1px solid #eeeeee
+
+.floating-label-form-group-with-value label
+  top: 0
+  opacity: 1
+
+.floating-label-form-group-with-focus label
+  color: $main-bg-color
+
+form .row:first-child .floating-label-form-group
+  border-top: 1px solid #eeeeee
+
+footer
+  color: $text-color
+  h3
+    margin-bottom: 30px
+  .footer-above
+    padding-top: 50px
+    background-color: $main-bg-color
+  .footer-col
+    margin-bottom: 50px
+  .footer-below
+    padding: 25px 0
+    background-color: $main-bg-color
+
+.btn-outline
+  font-size: 20px
+  margin-top: 15px
+  transition: all 0.3s ease-in-out
+  color: white
+  border: solid 2px white
+  background: transparent
+  &.active, &:active, &:focus, &:hover
+    color: $main-bg-color
+    border: solid 2px white
+    background: white
+
+.btn-primary
+  font-weight: 700
+  color: white
+  border-color: $text-color
+  background-color: $accent-color
+  &.focus, &:focus
+    color: white
+    border-color: black
+    background-color: #1a252f
+  &:hover, &.active, &:active
+    color: white
+    border-color: $text-color
+    background-color: $accent-color
+
+.open > .btn-primary.dropdown-toggle
+  color: white
+  border-color: $text-color
+  background-color: $accent-color
+
+.btn-primary
+  &.active
+    &.focus, &:focus, &:hover
+      color: white
+      border-color: black
+      background-color: #0d1318
+  &:active
+    &.focus, &:focus, &:hover
+      color: white
+      border-color: black
+      background-color: #0d1318
+
+.open > .btn-primary.dropdown-toggle
+  &.focus, &:focus, &:hover
+    color: white
+    border-color: black
+    background-color: #0d1318
+
+.btn-primary
+  &.active, &:active
+    background-image: none
+
+.open > .btn-primary.dropdown-toggle
+  background-image: none
+
+.btn-primary
+  &.disabled
+    &.focus, &:focus, &:hover
+      border-color: $sdry-bg-color
+      background-color: $sdry-bg-color
+  &[disabled]
+    &.focus, &:focus, &:hover
+      border-color: $sdry-bg-color
+      background-color: $sdry-bg-color
+
+fieldset[disabled] .btn-primary
+  &.focus, &:focus, &:hover
+    border-color: $sdry-bg-color
+    background-color: $sdry-bg-color
+
+.btn-primary .badge
+  color: $sdry-bg-color
+  background-color: white
+
+.btn-success
+  font-weight: 700
+  color: white
+  border-color: $main-bg-color
+  background-color: $main-bg-color
+  &.focus, &:focus
+    color: white
+    border-color: #0a4b3e
+    background-color: #128f76
+  &:hover, &.active, &:active
+    color: $text-color
+    border-color: $text-color
+    background-color: $accent-color
+
+.open > .btn-success.dropdown-toggle
+  color: $text-color
+  border-color: $text-color
+  background-color: $accent-color
+
+.btn-success
+  &.active
+    &.focus, &:focus, &:hover
+      color: white
+      border-color: #0a4b3e
+      background-color: #0e6f5c
+  &:active
+    &.focus, &:focus, &:hover
+      color: white
+      border-color: #0a4b3e
+      background-color: #0e6f5c
+
+.open > .btn-success.dropdown-toggle
+  &.focus, &:focus, &:hover
+    color: white
+    border-color: #0a4b3e
+    background-color: #0e6f5c
+
+.btn-success
+  &.active, &:active
+    background-image: none
+
+.open > .btn-success.dropdown-toggle
+  background-image: none
+
+.btn-success
+  &.disabled
+    &.focus, &:focus, &:hover
+      border-color: $main-bg-color
+      background-color: $main-bg-color
+  &[disabled]
+    &.focus, &:focus, &:hover
+      border-color: $main-bg-color
+      background-color: $main-bg-color
+
+fieldset[disabled] .btn-success
+  &.focus, &:focus, &:hover
+    border-color: $main-bg-color
+    background-color: $main-bg-color
+
+.btn-success .badge
+  color: $main-bg-color
+  background-color: white
+
+.btn-social
+  font-size: 20px
+  line-height: 45px
+  display: inline-block
+  width: 50px
+  height: 50px
+  text-align: center
+  border: 2px solid white
+  border-radius: 100%
+
+.btn
+  &.active, &:active, &:focus
+    outline: none
