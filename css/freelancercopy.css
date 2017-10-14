@@ -253,7 +253,7 @@ header.masthead {
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
-      opacity: 0.05;
+      opacity: 0;
       background: #123456; }
       #portfolio .portfolio-item .portfolio-link .caption:hover {
         opacity: 1; }
