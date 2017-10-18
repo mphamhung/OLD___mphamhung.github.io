@@ -290,10 +290,10 @@ header.masthead {
         color: #123456; }
         #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
 		font-family:  Lato, Helvetica, Arial, sans-serif;
-          margin-top: 0px; }
-		  #portfolio .portfolio-item .portfolio-link .caption .caption-content2 i{
-		  font-family:  Lato, Helvetica, Arial, sans-serif;
-		  }
+		margin-top: 0px; }
+		#portfolio .portfolio-item .portfolio-link .caption .caption-content2 i{
+		font-family:  Lato, Helvetica, Arial, sans-serif;
+		}
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
           margin: 0; }
